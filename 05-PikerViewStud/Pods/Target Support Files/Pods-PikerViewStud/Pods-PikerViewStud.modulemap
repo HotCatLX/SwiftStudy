@@ -1,0 +1,6 @@
+framework module Pods_PikerViewStud {
+  umbrella header "Pods-PikerViewStud-umbrella.h"
+
+  export *
+  module * { export * }
+}
