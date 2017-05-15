@@ -11,6 +11,12 @@ import SnapKit
 
 class ViewController: UIViewController  {
 
+    
+    var imageArray = [String]()
+    var dataArray1 = [Int]()
+    var dataArray2 = [Int]()
+    var dataArray3 = [Int]()
+    
     fileprivate lazy var picker :UIPickerView = {
         let picker = UIPickerView()
         picker.dataSource = self
@@ -33,7 +39,7 @@ class ViewController: UIViewController  {
         resultLabel.textColor = UIColor.white
         resultLabel.backgroundColor = UIColor.lightGray
         resultLabel.layer.cornerRadius = 8
-        resultLabel.text = "Try Again"
+        resultLabel.text = ""
         resultLabel.textAlignment = .center
         return resultLabel
     }()
@@ -45,13 +51,22 @@ class ViewController: UIViewController  {
         view.addSubview(goButton)
         view.addSubview(resultLabel)
         self.constructLayout()
+        
+        
+        imageArray = ["🐶", "🐼", "🐵", "🐸", "🐮", "🐲", "🐯", "🐰", "🐹", "🐭"]
+        for _ in 0 ..< 100 {
+            dataArray1.append((Int)(arc4random() % 10))
+            dataArray2.append((Int)(arc4random() % 10))
+            dataArray3.append((Int)(arc4random() % 10))
+        }
     }
 }
 
 //MARK:- UIPickerViewDelegate,UIPickerViewDataSource
 extension ViewController : UIPickerViewDelegate, UIPickerViewDataSource {
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 10
+        return 3
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -59,7 +74,23 @@ extension ViewController : UIPickerViewDelegate, UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
-        return 100.0
+        return 50.0
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        let emojiLabel = UILabel()
+        if (component == 0) {
+            emojiLabel.text = imageArray[(Int)(dataArray1[row])]
+        } else if (component == 1) {
+            emojiLabel.text = imageArray[(Int)(dataArray2[row])]
+        } else {
+            emojiLabel.text = imageArray[(Int)(dataArray3[row])]
+        }
+        
+        emojiLabel.font = UIFont(name: "Apple Color Emoji", size: 40)
+        emojiLabel.textAlignment = .center
+        
+        return emojiLabel
     }
 }
 
@@ -92,8 +123,12 @@ extension ViewController {
 
 extension ViewController {
     func goButtonClick() {
-        
+        //随机
+        picker.selectRow(Int(arc4random()) % 9 + 3, inComponent: 0, animated: true)
+        picker.selectRow(Int(arc4random()) % 9 + 3, inComponent: 1, animated: true)
+        picker.selectRow(Int(arc4random()) % 9 + 3, inComponent: 2, animated: true)
     }
-
+    
+    
 }
 
