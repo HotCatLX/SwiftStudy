@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0152AB1ECA9B440023EDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0152AA1ECA9B440023EDC9 /* AppDelegate.swift */; };
+		3D0152AD1ECA9B440023EDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0152AC1ECA9B440023EDC9 /* ViewController.swift */; };
+		3D0152B01ECA9B440023EDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0152AE1ECA9B440023EDC9 /* Main.storyboard */; };
+		3D0152B21ECA9B440023EDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0152B11ECA9B440023EDC9 /* Assets.xcassets */; };
+		3D0152B51ECA9B440023EDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0152B31ECA9B440023EDC9 /* LaunchScreen.storyboard */; };
+		3D0152C01ECA9B440023EDC9 /* DJPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0152BF1ECA9B440023EDC9 /* DJPlayerTests.swift */; };
+		3D0152CB1ECA9B440023EDC9 /* DJPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0152CA1ECA9B440023EDC9 /* DJPlayerUITests.swift */; };
+		3D0152D91ECA9B980023EDC9 /* Alan Walker - Fade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D0152D81ECA9B980023EDC9 /* Alan Walker - Fade.mp3 */; };
+		58CDEA90A6079C19BDCD77E8 /* Pods_DJPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71D70DFFD07332A32875604 /* Pods_DJPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0152BC1ECA9B440023EDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D01529F1ECA9B440023EDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0152A61ECA9B440023EDC9;
+			remoteInfo = DJPlayer;
+		};
+		3D0152C71ECA9B440023EDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D01529F1ECA9B440023EDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0152A61ECA9B440023EDC9;
+			remoteInfo = DJPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0152A71ECA9B440023EDC9 /* DJPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0152AA1ECA9B440023EDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D0152AC1ECA9B440023EDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D0152AF1ECA9B440023EDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0152B11ECA9B440023EDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0152B41ECA9B440023EDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0152B61ECA9B440023EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0152BB1ECA9B440023EDC9 /* DJPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0152BF1ECA9B440023EDC9 /* DJPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJPlayerTests.swift; sourceTree = "<group>"; };
+		3D0152C11ECA9B440023EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0152C61ECA9B440023EDC9 /* DJPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0152CA1ECA9B440023EDC9 /* DJPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJPlayerUITests.swift; sourceTree = "<group>"; };
+		3D0152CC1ECA9B440023EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0152D81ECA9B980023EDC9 /* Alan Walker - Fade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alan Walker - Fade.mp3"; sourceTree = "<group>"; };
+		4253F562FAA67227FC0C527C /* Pods-DJPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJPlayer/Pods-DJPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6045E602318C7A007DD001 /* Pods-DJPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJPlayer/Pods-DJPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D71D70DFFD07332A32875604 /* Pods_DJPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0152A41ECA9B440023EDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDEA90A6079C19BDCD77E8 /* Pods_DJPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152B81ECA9B440023EDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152C31ECA9B440023EDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D01529E1ECA9B440023EDC9 = {
+			isa = PBXGroup;
+			children = (
+				3D0152A91ECA9B440023EDC9 /* DJPlayer */,
+				3D0152BE1ECA9B440023EDC9 /* DJPlayerTests */,
+				3D0152C91ECA9B440023EDC9 /* DJPlayerUITests */,
+				3D0152A81ECA9B440023EDC9 /* Products */,
+				A1ED77B584E20C6B9C83663F /* Pods */,
+				467B526AA1AD0ED4EFF7B97F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0152A81ECA9B440023EDC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0152A71ECA9B440023EDC9 /* DJPlayer.app */,
+				3D0152BB1ECA9B440023EDC9 /* DJPlayerTests.xctest */,
+				3D0152C61ECA9B440023EDC9 /* DJPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0152A91ECA9B440023EDC9 /* DJPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3D0152D81ECA9B980023EDC9 /* Alan Walker - Fade.mp3 */,
+				3D0152AA1ECA9B440023EDC9 /* AppDelegate.swift */,
+				3D0152AC1ECA9B440023EDC9 /* ViewController.swift */,
+				3D0152AE1ECA9B440023EDC9 /* Main.storyboard */,
+				3D0152B11ECA9B440023EDC9 /* Assets.xcassets */,
+				3D0152B31ECA9B440023EDC9 /* LaunchScreen.storyboard */,
+				3D0152B61ECA9B440023EDC9 /* Info.plist */,
+			);
+			path = DJPlayer;
+			sourceTree = "<group>";
+		};
+		3D0152BE1ECA9B440023EDC9 /* DJPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0152BF1ECA9B440023EDC9 /* DJPlayerTests.swift */,
+				3D0152C11ECA9B440023EDC9 /* Info.plist */,
+			);
+			path = DJPlayerTests;
+			sourceTree = "<group>";
+		};
+		3D0152C91ECA9B440023EDC9 /* DJPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0152CA1ECA9B440023EDC9 /* DJPlayerUITests.swift */,
+				3D0152CC1ECA9B440023EDC9 /* Info.plist */,
+			);
+			path = DJPlayerUITests;
+			sourceTree = "<group>";
+		};
+		467B526AA1AD0ED4EFF7B97F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D71D70DFFD07332A32875604 /* Pods_DJPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1ED77B584E20C6B9C83663F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4253F562FAA67227FC0C527C /* Pods-DJPlayer.debug.xcconfig */,
+				BA6045E602318C7A007DD001 /* Pods-DJPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0152A61ECA9B440023EDC9 /* DJPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0152CF1ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayer" */;
+			buildPhases = (
+				614350AF21FEE10AE3E19C51 /* [CP] Check Pods Manifest.lock */,
+				3D0152A31ECA9B440023EDC9 /* Sources */,
+				3D0152A41ECA9B440023EDC9 /* Frameworks */,
+				3D0152A51ECA9B440023EDC9 /* Resources */,
+				BB9251A74C7889C4A03D8A65 /* [CP] Embed Pods Frameworks */,
+				2EBC2586DE74569C6A269ACC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJPlayer;
+			productName = DJPlayer;
+			productReference = 3D0152A71ECA9B440023EDC9 /* DJPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0152BA1ECA9B440023EDC9 /* DJPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0152D21ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayerTests" */;
+			buildPhases = (
+				3D0152B71ECA9B440023EDC9 /* Sources */,
+				3D0152B81ECA9B440023EDC9 /* Frameworks */,
+				3D0152B91ECA9B440023EDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0152BD1ECA9B440023EDC9 /* PBXTargetDependency */,
+			);
+			name = DJPlayerTests;
+			productName = DJPlayerTests;
+			productReference = 3D0152BB1ECA9B440023EDC9 /* DJPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D0152C51ECA9B440023EDC9 /* DJPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0152D51ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayerUITests" */;
+			buildPhases = (
+				3D0152C21ECA9B440023EDC9 /* Sources */,
+				3D0152C31ECA9B440023EDC9 /* Frameworks */,
+				3D0152C41ECA9B440023EDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0152C81ECA9B440023EDC9 /* PBXTargetDependency */,
+			);
+			name = DJPlayerUITests;
+			productName = DJPlayerUITests;
+			productReference = 3D0152C61ECA9B440023EDC9 /* DJPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D01529F1ECA9B440023EDC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = suckerl;
+				TargetAttributes = {
+					3D0152A61ECA9B440023EDC9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					3D0152BA1ECA9B440023EDC9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D0152A61ECA9B440023EDC9;
+					};
+					3D0152C51ECA9B440023EDC9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D0152A61ECA9B440023EDC9;
+					};
+				};
+			};
+			buildConfigurationList = 3D0152A21ECA9B440023EDC9 /* Build configuration list for PBXProject "DJPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D01529E1ECA9B440023EDC9;
+			productRefGroup = 3D0152A81ECA9B440023EDC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0152A61ECA9B440023EDC9 /* DJPlayer */,
+				3D0152BA1ECA9B440023EDC9 /* DJPlayerTests */,
+				3D0152C51ECA9B440023EDC9 /* DJPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0152A51ECA9B440023EDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0152B51ECA9B440023EDC9 /* LaunchScreen.storyboard in Resources */,
+				3D0152B21ECA9B440023EDC9 /* Assets.xcassets in Resources */,
+				3D0152B01ECA9B440023EDC9 /* Main.storyboard in Resources */,
+				3D0152D91ECA9B980023EDC9 /* Alan Walker - Fade.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152B91ECA9B440023EDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152C41ECA9B440023EDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBC2586DE74569C6A269ACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJPlayer/Pods-DJPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614350AF21FEE10AE3E19C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9251A74C7889C4A03D8A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJPlayer/Pods-DJPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0152A31ECA9B440023EDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0152AD1ECA9B440023EDC9 /* ViewController.swift in Sources */,
+				3D0152AB1ECA9B440023EDC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152B71ECA9B440023EDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0152C01ECA9B440023EDC9 /* DJPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0152C21ECA9B440023EDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0152CB1ECA9B440023EDC9 /* DJPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0152BD1ECA9B440023EDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0152A61ECA9B440023EDC9 /* DJPlayer */;
+			targetProxy = 3D0152BC1ECA9B440023EDC9 /* PBXContainerItemProxy */;
+		};
+		3D0152C81ECA9B440023EDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0152A61ECA9B440023EDC9 /* DJPlayer */;
+			targetProxy = 3D0152C71ECA9B440023EDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0152AE1ECA9B440023EDC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0152AF1ECA9B440023EDC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0152B31ECA9B440023EDC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0152B41ECA9B440023EDC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0152CD1ECA9B440023EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D0152CE1ECA9B440023EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0152D01ECA9B440023EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4253F562FAA67227FC0C527C /* Pods-DJPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D0152D11ECA9B440023EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6045E602318C7A007DD001 /* Pods-DJPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3D0152D31ECA9B440023EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJPlayer.app/DJPlayer";
+			};
+			name = Debug;
+		};
+		3D0152D41ECA9B440023EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJPlayer.app/DJPlayer";
+			};
+			name = Release;
+		};
+		3D0152D61ECA9B440023EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DJPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJPlayer;
+			};
+			name = Debug;
+		};
+		3D0152D71ECA9B440023EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DJPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.DJPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0152A21ECA9B440023EDC9 /* Build configuration list for PBXProject "DJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0152CD1ECA9B440023EDC9 /* Debug */,
+				3D0152CE1ECA9B440023EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0152CF1ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0152D01ECA9B440023EDC9 /* Debug */,
+				3D0152D11ECA9B440023EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D0152D21ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0152D31ECA9B440023EDC9 /* Debug */,
+				3D0152D41ECA9B440023EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D0152D51ECA9B440023EDC9 /* Build configuration list for PBXNativeTarget "DJPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0152D61ECA9B440023EDC9 /* Debug */,
+				3D0152D71ECA9B440023EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D01529F1ECA9B440023EDC9 /* Project object */;
+}
