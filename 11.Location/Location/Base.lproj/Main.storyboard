@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Location" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图1" translatesAutoresizingMaskIntoConstraints="NO" id="Et6-rn-hy8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xB-U9-a3h">
+                                <rect key="frame" x="50" y="567" width="275" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="RXw-S0-DFc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Show Location" backgroundImage="Find my location">
+                                    <color key="titleColor" red="1" green="0.6799428568" blue="0.19310902930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="locationButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7eu-6z-KqA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkt-eV-KNs">
+                                <rect key="frame" x="30" y="517" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QuN-Ol-dCk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6799428568" blue="0.19310902930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zkt-eV-KNs" secondAttribute="trailing" constant="30" id="8yh-KL-NFq"/>
+                            <constraint firstAttribute="trailing" secondItem="Et6-rn-hy8" secondAttribute="trailing" id="LpM-bZ-GNe"/>
+                            <constraint firstItem="zkt-eV-KNs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="R5r-gK-uzn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9xB-U9-a3h" secondAttribute="bottom" constant="50" id="apC-mQ-OJw"/>
+                            <constraint firstItem="9xB-U9-a3h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="daE-ss-Mtw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Et6-rn-hy8" secondAttribute="bottom" id="di6-gU-961"/>
+                            <constraint firstItem="9xB-U9-a3h" firstAttribute="top" secondItem="zkt-eV-KNs" secondAttribute="bottom" constant="20" id="fYP-7n-z1n"/>
+                            <constraint firstItem="Et6-rn-hy8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jM5-E0-BZe"/>
+                            <constraint firstItem="Et6-rn-hy8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lvN-UL-hk7"/>
+                            <constraint firstAttribute="trailing" secondItem="9xB-U9-a3h" secondAttribute="trailing" constant="50" id="vGC-V6-pgP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="zkt-eV-KNs" id="FGM-bm-OVn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Find my location" width="326" height="78"/>
+        <image name="图1" width="320" height="568"/>
+    </resources>
+</document>

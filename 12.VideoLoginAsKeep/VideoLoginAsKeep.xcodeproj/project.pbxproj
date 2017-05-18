@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8038671ECC4620000F6B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8038661ECC4620000F6B68 /* AppDelegate.swift */; };
+		3D8038691ECC4620000F6B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8038681ECC4620000F6B68 /* ViewController.swift */; };
+		3D80386C1ECC4620000F6B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D80386A1ECC4620000F6B68 /* Main.storyboard */; };
+		3D80386E1ECC4620000F6B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D80386D1ECC4620000F6B68 /* Assets.xcassets */; };
+		3D8038711ECC4620000F6B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D80386F1ECC4620000F6B68 /* LaunchScreen.storyboard */; };
+		3D80387C1ECC4620000F6B68 /* VideoLoginAsKeepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80387B1ECC4620000F6B68 /* VideoLoginAsKeepTests.swift */; };
+		3D8038871ECC4620000F6B68 /* VideoLoginAsKeepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8038861ECC4620000F6B68 /* VideoLoginAsKeepUITests.swift */; };
+		3D8038951ECC4635000F6B68 /* spotify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D8038941ECC4635000F6B68 /* spotify.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8038781ECC4620000F6B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D80385B1ECC4620000F6B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8038621ECC4620000F6B68;
+			remoteInfo = VideoLoginAsKeep;
+		};
+		3D8038831ECC4620000F6B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D80385B1ECC4620000F6B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8038621ECC4620000F6B68;
+			remoteInfo = VideoLoginAsKeep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D8038631ECC4620000F6B68 /* VideoLoginAsKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoLoginAsKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8038661ECC4620000F6B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8038681ECC4620000F6B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D80386B1ECC4620000F6B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D80386D1ECC4620000F6B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8038701ECC4620000F6B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D8038721ECC4620000F6B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8038771ECC4620000F6B68 /* VideoLoginAsKeepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoLoginAsKeepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D80387B1ECC4620000F6B68 /* VideoLoginAsKeepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLoginAsKeepTests.swift; sourceTree = "<group>"; };
+		3D80387D1ECC4620000F6B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8038821ECC4620000F6B68 /* VideoLoginAsKeepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoLoginAsKeepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8038861ECC4620000F6B68 /* VideoLoginAsKeepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLoginAsKeepUITests.swift; sourceTree = "<group>"; };
+		3D8038881ECC4620000F6B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8038941ECC4635000F6B68 /* spotify.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotify.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8038601ECC4620000F6B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8038741ECC4620000F6B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D80387F1ECC4620000F6B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D80385A1ECC4620000F6B68 = {
+			isa = PBXGroup;
+			children = (
+				3D8038651ECC4620000F6B68 /* VideoLoginAsKeep */,
+				3D80387A1ECC4620000F6B68 /* VideoLoginAsKeepTests */,
+				3D8038851ECC4620000F6B68 /* VideoLoginAsKeepUITests */,
+				3D8038641ECC4620000F6B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8038641ECC4620000F6B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8038631ECC4620000F6B68 /* VideoLoginAsKeep.app */,
+				3D8038771ECC4620000F6B68 /* VideoLoginAsKeepTests.xctest */,
+				3D8038821ECC4620000F6B68 /* VideoLoginAsKeepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8038651ECC4620000F6B68 /* VideoLoginAsKeep */ = {
+			isa = PBXGroup;
+			children = (
+				3D8038941ECC4635000F6B68 /* spotify.mp4 */,
+				3D8038661ECC4620000F6B68 /* AppDelegate.swift */,
+				3D8038681ECC4620000F6B68 /* ViewController.swift */,
+				3D80386A1ECC4620000F6B68 /* Main.storyboard */,
+				3D80386D1ECC4620000F6B68 /* Assets.xcassets */,
+				3D80386F1ECC4620000F6B68 /* LaunchScreen.storyboard */,
+				3D8038721ECC4620000F6B68 /* Info.plist */,
+			);
+			path = VideoLoginAsKeep;
+			sourceTree = "<group>";
+		};
+		3D80387A1ECC4620000F6B68 /* VideoLoginAsKeepTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D80387B1ECC4620000F6B68 /* VideoLoginAsKeepTests.swift */,
+				3D80387D1ECC4620000F6B68 /* Info.plist */,
+			);
+			path = VideoLoginAsKeepTests;
+			sourceTree = "<group>";
+		};
+		3D8038851ECC4620000F6B68 /* VideoLoginAsKeepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8038861ECC4620000F6B68 /* VideoLoginAsKeepUITests.swift */,
+				3D8038881ECC4620000F6B68 /* Info.plist */,
+			);
+			path = VideoLoginAsKeepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8038621ECC4620000F6B68 /* VideoLoginAsKeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D80388B1ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeep" */;
+			buildPhases = (
+				3D80385F1ECC4620000F6B68 /* Sources */,
+				3D8038601ECC4620000F6B68 /* Frameworks */,
+				3D8038611ECC4620000F6B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoLoginAsKeep;
+			productName = VideoLoginAsKeep;
+			productReference = 3D8038631ECC4620000F6B68 /* VideoLoginAsKeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8038761ECC4620000F6B68 /* VideoLoginAsKeepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D80388E1ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeepTests" */;
+			buildPhases = (
+				3D8038731ECC4620000F6B68 /* Sources */,
+				3D8038741ECC4620000F6B68 /* Frameworks */,
+				3D8038751ECC4620000F6B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8038791ECC4620000F6B68 /* PBXTargetDependency */,
+			);
+			name = VideoLoginAsKeepTests;
+			productName = VideoLoginAsKeepTests;
+			productReference = 3D8038771ECC4620000F6B68 /* VideoLoginAsKeepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D8038811ECC4620000F6B68 /* VideoLoginAsKeepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8038911ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeepUITests" */;
+			buildPhases = (
+				3D80387E1ECC4620000F6B68 /* Sources */,
+				3D80387F1ECC4620000F6B68 /* Frameworks */,
+				3D8038801ECC4620000F6B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8038841ECC4620000F6B68 /* PBXTargetDependency */,
+			);
+			name = VideoLoginAsKeepUITests;
+			productName = VideoLoginAsKeepUITests;
+			productReference = 3D8038821ECC4620000F6B68 /* VideoLoginAsKeepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D80385B1ECC4620000F6B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = suckerl;
+				TargetAttributes = {
+					3D8038621ECC4620000F6B68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D8038761ECC4620000F6B68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D8038621ECC4620000F6B68;
+					};
+					3D8038811ECC4620000F6B68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D8038621ECC4620000F6B68;
+					};
+				};
+			};
+			buildConfigurationList = 3D80385E1ECC4620000F6B68 /* Build configuration list for PBXProject "VideoLoginAsKeep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D80385A1ECC4620000F6B68;
+			productRefGroup = 3D8038641ECC4620000F6B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8038621ECC4620000F6B68 /* VideoLoginAsKeep */,
+				3D8038761ECC4620000F6B68 /* VideoLoginAsKeepTests */,
+				3D8038811ECC4620000F6B68 /* VideoLoginAsKeepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8038611ECC4620000F6B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8038951ECC4635000F6B68 /* spotify.mp4 in Resources */,
+				3D8038711ECC4620000F6B68 /* LaunchScreen.storyboard in Resources */,
+				3D80386E1ECC4620000F6B68 /* Assets.xcassets in Resources */,
+				3D80386C1ECC4620000F6B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8038751ECC4620000F6B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8038801ECC4620000F6B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D80385F1ECC4620000F6B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8038691ECC4620000F6B68 /* ViewController.swift in Sources */,
+				3D8038671ECC4620000F6B68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8038731ECC4620000F6B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D80387C1ECC4620000F6B68 /* VideoLoginAsKeepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D80387E1ECC4620000F6B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8038871ECC4620000F6B68 /* VideoLoginAsKeepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8038791ECC4620000F6B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8038621ECC4620000F6B68 /* VideoLoginAsKeep */;
+			targetProxy = 3D8038781ECC4620000F6B68 /* PBXContainerItemProxy */;
+		};
+		3D8038841ECC4620000F6B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8038621ECC4620000F6B68 /* VideoLoginAsKeep */;
+			targetProxy = 3D8038831ECC4620000F6B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D80386A1ECC4620000F6B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D80386B1ECC4620000F6B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D80386F1ECC4620000F6B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8038701ECC4620000F6B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8038891ECC4620000F6B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D80388A1ECC4620000F6B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D80388C1ECC4620000F6B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoLoginAsKeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D80388D1ECC4620000F6B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoLoginAsKeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3D80388F1ECC4620000F6B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoLoginAsKeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoLoginAsKeep.app/VideoLoginAsKeep";
+			};
+			name = Debug;
+		};
+		3D8038901ECC4620000F6B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoLoginAsKeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoLoginAsKeep.app/VideoLoginAsKeep";
+			};
+			name = Release;
+		};
+		3D8038921ECC4620000F6B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VideoLoginAsKeepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VideoLoginAsKeep;
+			};
+			name = Debug;
+		};
+		3D8038931ECC4620000F6B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VideoLoginAsKeepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.VideoLoginAsKeepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VideoLoginAsKeep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D80385E1ECC4620000F6B68 /* Build configuration list for PBXProject "VideoLoginAsKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8038891ECC4620000F6B68 /* Debug */,
+				3D80388A1ECC4620000F6B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D80388B1ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D80388C1ECC4620000F6B68 /* Debug */,
+				3D80388D1ECC4620000F6B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D80388E1ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D80388F1ECC4620000F6B68 /* Debug */,
+				3D8038901ECC4620000F6B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D8038911ECC4620000F6B68 /* Build configuration list for PBXNativeTarget "VideoLoginAsKeepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8038921ECC4620000F6B68 /* Debug */,
+				3D8038931ECC4620000F6B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D80385B1ECC4620000F6B68 /* Project object */;
+}

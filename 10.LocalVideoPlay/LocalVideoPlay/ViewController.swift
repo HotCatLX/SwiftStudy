@@ -83,18 +83,17 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
     }
-}
+} 
 
 extension ViewController : cellDelegate {
     func playButtonClickWithDelegate() {
         print("play button click")
         
-//        let path = Bundle.main.path(forResource: "1", ofType: "mp4")
-//        
-//        playerView = AVPlayer(url: URL(fileURLWithPath: path!))
+        guard let pathStr = Bundle.main.path(forResource: "1.mp4", ofType: nil) else {
+             return
+        }
         
-        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "1", ofType: "mp4")!)
-        
+        let url = URL(fileURLWithPath: pathStr)
         player = AVPlayer(url: url)
         playerVC.player = player
         self.show(playerVC, sender: nil)
