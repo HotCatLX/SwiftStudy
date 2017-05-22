@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DateAndTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图1" translatesAutoresizingMaskIntoConstraints="NO" id="lPe-Vi-mvp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYn-Qs-b6n">
+                                <rect key="frame" x="100" y="617" width="175" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.6799428568" blue="0.19310902930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="c5e-uG-kzN"/>
+                                </constraints>
+                                <state key="normal" title="点击设置时间">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settingDateClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJA-mq-WdL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKa-fs-WZK">
+                                <rect key="frame" x="50" y="572" width="275" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.6799428568" blue="0.19310902930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ROf-Sd-Dm0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CKa-fs-WZK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="BNO-mw-qAb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lPe-Vi-mvp" secondAttribute="bottom" id="LOd-8P-VxG"/>
+                            <constraint firstAttribute="trailing" secondItem="lPe-Vi-mvp" secondAttribute="trailing" id="Qxv-Gf-vm5"/>
+                            <constraint firstItem="lPe-Vi-mvp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V34-F5-Sgl"/>
+                            <constraint firstAttribute="trailing" secondItem="CKa-fs-WZK" secondAttribute="trailing" constant="50" id="Z8P-mO-VD7"/>
+                            <constraint firstItem="lYn-Qs-b6n" firstAttribute="top" secondItem="CKa-fs-WZK" secondAttribute="bottom" constant="15" id="dJs-8L-FBu"/>
+                            <constraint firstItem="lYn-Qs-b6n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="jwi-ro-Zs3"/>
+                            <constraint firstAttribute="trailing" secondItem="lYn-Qs-b6n" secondAttribute="trailing" constant="100" id="qQm-Q5-QiD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lYn-Qs-b6n" secondAttribute="bottom" constant="20" id="sdx-H4-pjz"/>
+                            <constraint firstItem="lPe-Vi-mvp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tFj-XK-u9K"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resuleLabel" destination="CKa-fs-WZK" id="gFn-o7-ixG"/>
+                        <outlet property="setButton" destination="lYn-Qs-b6n" id="oOV-dl-MoJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="图1" width="320" height="568"/>
+    </resources>
+</document>

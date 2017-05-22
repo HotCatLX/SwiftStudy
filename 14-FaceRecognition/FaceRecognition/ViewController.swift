@@ -17,11 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         recognitionButtom.layer.cornerRadius = 8
+    
+        
     }
 
-
+    
     @IBAction func recognitionButtonClick(_ sender: UIButton) {
 
+        
     
     }
 }
