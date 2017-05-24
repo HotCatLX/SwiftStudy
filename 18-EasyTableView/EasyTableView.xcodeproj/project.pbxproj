@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2217821ED2C03A0095C674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2217811ED2C03A0095C674 /* AppDelegate.swift */; };
+		3D2217841ED2C03A0095C674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2217831ED2C03A0095C674 /* ViewController.swift */; };
+		3D2217871ED2C03A0095C674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2217851ED2C03A0095C674 /* Main.storyboard */; };
+		3D2217891ED2C03A0095C674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2217881ED2C03A0095C674 /* Assets.xcassets */; };
+		3D22178C1ED2C03A0095C674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D22178A1ED2C03A0095C674 /* LaunchScreen.storyboard */; };
+		3D2217971ED2C03A0095C674 /* EasyTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2217961ED2C03A0095C674 /* EasyTableViewTests.swift */; };
+		3D2217A21ED2C03A0095C674 /* EasyTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2217A11ED2C03A0095C674 /* EasyTableViewUITests.swift */; };
+		3D2217B81ED2EBC50095C674 /* HeaderS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2217B71ED2EBC50095C674 /* HeaderS.swift */; };
+		61789A0C056810B9C92BC626 /* Pods_EasyTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EE5C16E41AACBECF608705 /* Pods_EasyTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2217931ED2C03A0095C674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2217761ED2C03A0095C674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D22177D1ED2C03A0095C674;
+			remoteInfo = EasyTableView;
+		};
+		3D22179E1ED2C03A0095C674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2217761ED2C03A0095C674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D22177D1ED2C03A0095C674;
+			remoteInfo = EasyTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EE5C16E41AACBECF608705 /* Pods_EasyTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D22177E1ED2C03A0095C674 /* EasyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2217811ED2C03A0095C674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D2217831ED2C03A0095C674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D2217861ED2C03A0095C674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2217881ED2C03A0095C674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D22178B1ED2C03A0095C674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D22178D1ED2C03A0095C674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2217921ED2C03A0095C674 /* EasyTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2217961ED2C03A0095C674 /* EasyTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTableViewTests.swift; sourceTree = "<group>"; };
+		3D2217981ED2C03A0095C674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D22179D1ED2C03A0095C674 /* EasyTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2217A11ED2C03A0095C674 /* EasyTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTableViewUITests.swift; sourceTree = "<group>"; };
+		3D2217A31ED2C03A0095C674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2217B71ED2EBC50095C674 /* HeaderS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderS.swift; sourceTree = "<group>"; };
+		71CEEEAC6CBDE6C303692405 /* Pods-EasyTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableView/Pods-EasyTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		777DC1420941327FB9954141 /* Pods-EasyTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableView/Pods-EasyTableView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D22177B1ED2C03A0095C674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61789A0C056810B9C92BC626 /* Pods_EasyTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D22178F1ED2C03A0095C674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D22179A1ED2C03A0095C674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1119E3525550A4DA85B715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11EE5C16E41AACBECF608705 /* Pods_EasyTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2217751ED2C03A0095C674 = {
+			isa = PBXGroup;
+			children = (
+				3D2217801ED2C03A0095C674 /* EasyTableView */,
+				3D2217951ED2C03A0095C674 /* EasyTableViewTests */,
+				3D2217A01ED2C03A0095C674 /* EasyTableViewUITests */,
+				3D22177F1ED2C03A0095C674 /* Products */,
+				A6F64AF3715DCA54DA04A8A6 /* Pods */,
+				3C1119E3525550A4DA85B715 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D22177F1ED2C03A0095C674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D22177E1ED2C03A0095C674 /* EasyTableView.app */,
+				3D2217921ED2C03A0095C674 /* EasyTableViewTests.xctest */,
+				3D22179D1ED2C03A0095C674 /* EasyTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2217801ED2C03A0095C674 /* EasyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3D2217811ED2C03A0095C674 /* AppDelegate.swift */,
+				3D2217831ED2C03A0095C674 /* ViewController.swift */,
+				3D2217851ED2C03A0095C674 /* Main.storyboard */,
+				3D2217881ED2C03A0095C674 /* Assets.xcassets */,
+				3D22178A1ED2C03A0095C674 /* LaunchScreen.storyboard */,
+				3D22178D1ED2C03A0095C674 /* Info.plist */,
+				3D2217B71ED2EBC50095C674 /* HeaderS.swift */,
+			);
+			path = EasyTableView;
+			sourceTree = "<group>";
+		};
+		3D2217951ED2C03A0095C674 /* EasyTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D2217961ED2C03A0095C674 /* EasyTableViewTests.swift */,
+				3D2217981ED2C03A0095C674 /* Info.plist */,
+			);
+			path = EasyTableViewTests;
+			sourceTree = "<group>";
+		};
+		3D2217A01ED2C03A0095C674 /* EasyTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D2217A11ED2C03A0095C674 /* EasyTableViewUITests.swift */,
+				3D2217A31ED2C03A0095C674 /* Info.plist */,
+			);
+			path = EasyTableViewUITests;
+			sourceTree = "<group>";
+		};
+		A6F64AF3715DCA54DA04A8A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CEEEAC6CBDE6C303692405 /* Pods-EasyTableView.debug.xcconfig */,
+				777DC1420941327FB9954141 /* Pods-EasyTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D22177D1ED2C03A0095C674 /* EasyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2217A61ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableView" */;
+			buildPhases = (
+				A09A0BEED3DFAC1B6F782AEA /* [CP] Check Pods Manifest.lock */,
+				3D22177A1ED2C03A0095C674 /* Sources */,
+				3D22177B1ED2C03A0095C674 /* Frameworks */,
+				3D22177C1ED2C03A0095C674 /* Resources */,
+				7B82121ED42BB9F996F81BF9 /* [CP] Embed Pods Frameworks */,
+				2647CC244F5F0D1E1198103B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTableView;
+			productName = EasyTableView;
+			productReference = 3D22177E1ED2C03A0095C674 /* EasyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D2217911ED2C03A0095C674 /* EasyTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2217A91ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableViewTests" */;
+			buildPhases = (
+				3D22178E1ED2C03A0095C674 /* Sources */,
+				3D22178F1ED2C03A0095C674 /* Frameworks */,
+				3D2217901ED2C03A0095C674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2217941ED2C03A0095C674 /* PBXTargetDependency */,
+			);
+			name = EasyTableViewTests;
+			productName = EasyTableViewTests;
+			productReference = 3D2217921ED2C03A0095C674 /* EasyTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D22179C1ED2C03A0095C674 /* EasyTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2217AC1ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableViewUITests" */;
+			buildPhases = (
+				3D2217991ED2C03A0095C674 /* Sources */,
+				3D22179A1ED2C03A0095C674 /* Frameworks */,
+				3D22179B1ED2C03A0095C674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D22179F1ED2C03A0095C674 /* PBXTargetDependency */,
+			);
+			name = EasyTableViewUITests;
+			productName = EasyTableViewUITests;
+			productReference = 3D22179D1ED2C03A0095C674 /* EasyTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2217761ED2C03A0095C674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = suckel;
+				TargetAttributes = {
+					3D22177D1ED2C03A0095C674 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D2217911ED2C03A0095C674 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D22177D1ED2C03A0095C674;
+					};
+					3D22179C1ED2C03A0095C674 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D22177D1ED2C03A0095C674;
+					};
+				};
+			};
+			buildConfigurationList = 3D2217791ED2C03A0095C674 /* Build configuration list for PBXProject "EasyTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2217751ED2C03A0095C674;
+			productRefGroup = 3D22177F1ED2C03A0095C674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D22177D1ED2C03A0095C674 /* EasyTableView */,
+				3D2217911ED2C03A0095C674 /* EasyTableViewTests */,
+				3D22179C1ED2C03A0095C674 /* EasyTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D22177C1ED2C03A0095C674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22178C1ED2C03A0095C674 /* LaunchScreen.storyboard in Resources */,
+				3D2217891ED2C03A0095C674 /* Assets.xcassets in Resources */,
+				3D2217871ED2C03A0095C674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2217901ED2C03A0095C674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D22179B1ED2C03A0095C674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2647CC244F5F0D1E1198103B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableView/Pods-EasyTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B82121ED42BB9F996F81BF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableView/Pods-EasyTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09A0BEED3DFAC1B6F782AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D22177A1ED2C03A0095C674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2217B81ED2EBC50095C674 /* HeaderS.swift in Sources */,
+				3D2217841ED2C03A0095C674 /* ViewController.swift in Sources */,
+				3D2217821ED2C03A0095C674 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D22178E1ED2C03A0095C674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2217971ED2C03A0095C674 /* EasyTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2217991ED2C03A0095C674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2217A21ED2C03A0095C674 /* EasyTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2217941ED2C03A0095C674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D22177D1ED2C03A0095C674 /* EasyTableView */;
+			targetProxy = 3D2217931ED2C03A0095C674 /* PBXContainerItemProxy */;
+		};
+		3D22179F1ED2C03A0095C674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D22177D1ED2C03A0095C674 /* EasyTableView */;
+			targetProxy = 3D22179E1ED2C03A0095C674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D2217851ED2C03A0095C674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2217861ED2C03A0095C674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D22178A1ED2C03A0095C674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D22178B1ED2C03A0095C674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2217A41ED2C03A0095C674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D2217A51ED2C03A0095C674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2217A71ED2C03A0095C674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CEEEAC6CBDE6C303692405 /* Pods-EasyTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D2217A81ED2C03A0095C674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777DC1420941327FB9954141 /* Pods-EasyTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3D2217AA1ED2C03A0095C674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTableView.app/EasyTableView";
+			};
+			name = Debug;
+		};
+		3D2217AB1ED2C03A0095C674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTableView.app/EasyTableView";
+			};
+			name = Release;
+		};
+		3D2217AD1ED2C03A0095C674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyTableView;
+			};
+			name = Debug;
+		};
+		3D2217AE1ED2C03A0095C674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.suckerl.EasyTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2217791ED2C03A0095C674 /* Build configuration list for PBXProject "EasyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2217A41ED2C03A0095C674 /* Debug */,
+				3D2217A51ED2C03A0095C674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2217A61ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2217A71ED2C03A0095C674 /* Debug */,
+				3D2217A81ED2C03A0095C674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2217A91ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2217AA1ED2C03A0095C674 /* Debug */,
+				3D2217AB1ED2C03A0095C674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2217AC1ED2C03A0095C674 /* Build configuration list for PBXNativeTarget "EasyTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2217AD1ED2C03A0095C674 /* Debug */,
+				3D2217AE1ED2C03A0095C674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2217761ED2C03A0095C674 /* Project object */;
+}

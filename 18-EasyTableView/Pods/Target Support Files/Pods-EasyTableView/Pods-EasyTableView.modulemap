@@ -1,0 +1,6 @@
+framework module Pods_EasyTableView {
+  umbrella header "Pods-EasyTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
